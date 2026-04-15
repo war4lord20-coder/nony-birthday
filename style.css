@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #0f172a;
+    background: #2a0f26;
     color: white;
     text-align: center;
      font-family: 'Poppins', sans-serif;
@@ -89,7 +89,7 @@ body {
 
 .message {
     padding: 50px;
-    background: #1e293b;
+    background: #57285c;
 }
 h1, h2 {
     font-family: 'Playfair Display', serif;
@@ -106,4 +106,14 @@ p {
     font-size: 18px;
     line-height: 1.6;
     color: #e2e8f0;
+}
+#birthdayText {
+    font-size: 2.5rem;
+    color: #ff4da6;
+    animation: fadeIn 2s ease-in-out, glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px #ff4da6; }
+    to { text-shadow: 0 0 25px #ff99cc; }
 }
